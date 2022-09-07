@@ -116,7 +116,7 @@ img {
 
 @media (min-width: 750px) {
   .wrapper{
-    grid-template-columns: repeat(auto-fit,minmax(700px,20rem));
+    grid-template-columns: repeat(auto-fit,minmax(750px,25rem));
   }
   .product {
     display: grid;
@@ -128,11 +128,17 @@ img {
     height: 100%;
   }
   .product__content {
-    margin: 0;
-    justify-content: space-evenly;
+    justify-content: center;
+    height: 100%;
+    padding: 0 2rem;
+    margin: 1.5rem 0;
+    gap: 1rem;
   }
-  .product__content * {
-    margin-bottom: .3rem;
+
+  .product__title {
+    display: flex;
+    text-align: left;
+    font-size: 53px;
   }
 }
 
