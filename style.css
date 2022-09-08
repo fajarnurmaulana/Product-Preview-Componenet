@@ -107,7 +107,7 @@ img {
 .product__btn::before {
   content: url(./images/icon-cart.svg);
   position: absolute;
-  left: 35%;
+  left: 30%;
 }
 
 @media (min-width: 750px) {
@@ -144,7 +144,7 @@ img {
     font-size: 50px;
   }
   .product__btn::before {
-    left: 30%;
+    left: 35%;
   }
 
 
