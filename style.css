@@ -21,6 +21,7 @@ img {
   height: auto;
 }
 .main {
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 5rem 0;
