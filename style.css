@@ -89,7 +89,7 @@ img {
   font-family: 'Fraunces',serif;
 }
 .product__price--discount {
-  color: var(--dark-blue);
+  color: var(--grayish-blue);
   font-size: 19px;
   font-weight: 700;
   text-decoration: line-through;
